@@ -1,0 +1,176 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #87805E;
+    align-items: center;
+    padding: 32px 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+body{
+    background-color: #B09B71;
+}
+#contenedorinicio{
+    padding: 10px;
+}
+
+.footer{
+    text-align: left;
+    background-color:#D8CCA3;
+    padding: 10px;
+}
+
+.footer ul li{
+    list-style: none;
+   }
+  
+/*Seccion index*/
+
+.centroyfoto{
+
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: auto;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+     }
+.centroyfoto img{
+        max-width: 100%;
+     }
+.derecha{
+
+    justify-content: 15px  20px;
+    color: #000000;
+    text-align: center;
+}  
+
+/*.derecha:hover{
+    color: white;
+}*/
+
+.piedeinicio{
+text-align: center;
+text-shadow: #75593a;
+text-decoration-color:  #75593a;
+
+}
+.galeriaindex h2{
+    text-align: center;
+    color: black;
+}
+.contenedor-galeria{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+.galeriaindex img{
+    width: 100%;
+}
+
+
+/* Seccion de galeria */
+
+.galeriadeimagenes{
+
+    text-align: center;
+    color: rgb(14, 45, 63);
+
+    
+}
+
+.contenedor-galeria-imagenes{
+   display: grid;
+   grid-template-columns: 30% 30% 30%;
+  
+   gap: 25px;
+   padding: 0;
+   justify-content: space-between;
+
+}
+.contenedor-galeria-imagenes img{
+    width: 100%;
+}
+
+/* FORMULARIO */
+fieldset{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+/* Media Queries */
+
+@media screen and (max-width:480px){
+    header{
+        grid-template-columns: 100%;
+
+    }
+    header nav{
+        justify-content: center;
+        margin-top: 1rem;
+        gap: 20px;
+    }
+    .centroyfoto{
+        grid-template-columns: 100%;
+
+    }
+    
+   h1, h2, a{
+        font-size: auto;
+        width: auto;
+    }
+    body, header, footer{
+
+    justify-content: flex-start;
+    width: auto;
+    }
+    .galeriadeimagenes{
+        grid-template-columns: 1fr;
+    }
+    .contenedor-galeria{
+        grid-template-columns: 100%;
+    }
+    footer h4{
+        text-align: center;
+    }
+    .contenedor-galeria-imagenes{
+        grid-template-columns: 100%;
+
+    }
+}

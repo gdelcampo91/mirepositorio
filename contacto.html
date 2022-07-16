@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagenes/logo.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">
+           <img src="imagenes/logo.jpg" alt="logo-de-la-compania">
+           <h2 class="nombre-empresa">Denna Spa</h2>
+
+        </a>
+
+        <nav>
+            <a href="index.html" class="nav-link">INICIO</a>
+            <a href="galeria.html" class="nav-link">GALERIA</a>
+            <a href="promociones.html" class="nav-link">PROMOCIONES</a>
+            <a href="productos.html" class="nav-link">PRODUCTOS</a>
+            <a href="contacto.html" class="nav-link">CONTACTO</a>
+        </nav>
+    </header>
+
+<section>
+    <h2>Formulario</h2>
+         <form action="">
+             <fieldset>
+                 <legend> Datos personales</legend>
+                 <label for="nombre">Nombre:</label>
+                 <input type="text" name="nombre" id= "nombre" placeholder="Ingrese su nombre" required>
+                 <br>
+                 <br>
+                 <label for="Apellido">Apellido:</label>
+                 <input type="text" name="apellido" id="apellido" placeholder="ingrese su apellido" required>
+                 <br>
+                 <br>
+                 <label for="clave">Contraseña:</label>
+                 <input type="password" name="clave" id="clave" placeholder="Ingrese su contraseña" required>
+                 <br>
+                 <br>
+                 <label for="correo">Correo electrónico:</label>
+                 <input type="email" name="correo" id="correo" placeholder="Ingrese su correo electrónico" required>
+                <br>
+                <br>
+                <label for="num">Número telefónico</label>
+                <input type="number" name="num" id="num" placeholder="Ingrese su número telefónico" required>
+                <br>
+                <br>
+                <label for="servicio">Servicio:</label>
+                <br>
+                <select name="servicio" id="servicio">
+                    <option value=""> Seleccione su servicio:</option>
+                    <option value="M">Masaje para uno</option>
+                    <option value="MT">Masaje para dos</option>
+                    <option value="FC">Limpieza facial</option>
+                    <option value="HR">Depilación</option>
+                    <option value="P">Productos</option>
+                    <option value="O">Otros</option>
+                </select>
+                <br>
+                <br>
+                <label for="comentario">Ingrese su consulta: </label>
+                 <br>
+                 <br>
+                 <textarea name="" id="" cols="30" rows="10"></textarea>
+                 <br>
+                 <br>
+                <input type="submit" value="Enviar">
+             </fieldset>
+         </form>
+
+</section>
+    
+</body>
+
+<footer class="footer">
+
+    <ul>
+        <li>Avenida Coronel Díaz 2xxx</li>
+        <li>Spa@gmail.com</li>
+        <li>+54-911-1111-1111</li>
+    </ul>
+    
+    <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6754304830465!2d-58.408522899999994!3d-34.5870783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca82f65b2b87%3A0x6b4923c3bade7037!2sAv.%20Cnel.%20D%C3%ADaz%202155%2C%20C1425%20CABA!5e0!3m2!1ses!2sar!4v1655500521193!5m2!1ses!2sar"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+</footer>
+</html>
