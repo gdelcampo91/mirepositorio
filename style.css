@@ -103,8 +103,87 @@ text-decoration-color:  #75593a;
 }
 
 
-/* Seccion de galeria */
+/*SECCION TRATAMIENTOS*/
 
+ article:hover{
+     color: rgb(255, 255, 255);
+ }
+                                 
+.msjdte{
+margin: 10px;
+color: #75593a;
+border: #75593a;
+background-image:url("/imagenes/descontractutrante.jpg") ;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center center;
+text-align: center ;
+border-radius: 55px;
+}
+
+article {
+padding: 150px;
+color: #75593a;
+}
+
+
+.msjrte{
+margin: 10px;
+color: #75593a;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-image:url("/imagenes/relajante.jpg") ;
+text-align: center ;
+border-radius: 55px;
+}  
+
+.msjrdcte{
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+margin: 10px;
+color: #75593a;
+background-image:url("/imagenes/msjrdcte.jpg") ;
+text-align: center ;
+border-radius: 55px;
+ }
+
+.msjprja{
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+margin: 10px;
+color: #75593a;
+background-image:url("/imagenes/msjprja.jpg") ;
+text-align: center ;
+border-radius: 55px;    
+}
+
+.msjdptvo{
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+margin: 10px;
+color: #75593a;
+background-image:url("/imagenes/deportivoo.jpg") ;
+text-align: center ;
+border-radius: 55px;
+}
+
+.msjrflex{
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+margin: 10px;
+color: #75593a;
+background-image:url("/imagenes/reflexologia.jpg") ;  
+text-align: center ;
+border-radius: 55px;
+}
+
+/* Seccion de galeria */
+/*
 .galeriadeimagenes{
 
     text-align: center;
@@ -125,6 +204,7 @@ text-decoration-color:  #75593a;
 .contenedor-galeria-imagenes img{
     width: 100%;
 }
+*/
 
 /* FORMULARIO */
 fieldset{
