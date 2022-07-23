@@ -119,6 +119,8 @@ background-repeat: no-repeat;
 background-position: center center;
 text-align: center ;
 border-radius: 55px;
+width: 500px;
+height: 500px;
 }
 
 article {
@@ -130,12 +132,14 @@ color: #75593a;
 .msjrte{
 margin: 10px;
 color: #75593a;
-background-size: cover;
+background-size: 100% 100%;
 background-repeat: no-repeat;
 background-position: center center;
 background-image:url("/imagenes/relajante.jpg") ;
 text-align: center ;
 border-radius: 55px;
+width: 500px;
+height: 500px;
 }  
 
 .msjrdcte{
@@ -147,6 +151,8 @@ color: #75593a;
 background-image:url("/imagenes/msjrdcte.jpg") ;
 text-align: center ;
 border-radius: 55px;
+width: 500px;
+height: 500px;
  }
 
 .msjprja{
@@ -158,6 +164,8 @@ color: #75593a;
 background-image:url("/imagenes/msjprja.jpg") ;
 text-align: center ;
 border-radius: 55px;    
+width: 500px;
+height: 500px;
 }
 
 .msjdptvo{
@@ -169,6 +177,8 @@ color: #75593a;
 background-image:url("/imagenes/deportivoo.jpg") ;
 text-align: center ;
 border-radius: 55px;
+width: 500px;
+height: 500px;
 }
 
 .msjrflex{
@@ -180,6 +190,8 @@ color: #75593a;
 background-image:url("/imagenes/reflexologia.jpg") ;  
 text-align: center ;
 border-radius: 55px;
+width: 500px;
+height: 500px;
 }
 
 /* Seccion de galeria */
@@ -214,6 +226,11 @@ fieldset{
     max-width: 400px;
     margin: auto;
 }
+
+.contenedor-contacto{
+    height: 80vh
+}
+
 /* Media Queries */
 
 @media screen and (max-width:480px){
